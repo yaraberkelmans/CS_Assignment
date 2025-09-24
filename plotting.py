@@ -19,7 +19,7 @@ plt.plot(x, m*x + b, color="red", label=f"Fit: y = {m:.2f}x + {b:.2f}")
 # Labels and title
 plt.xlabel("WO [x1000]")
 plt.ylabel("NL Beer consumption [x1000 hectoliter]")
-plt.title("Correlation between university students and beer bonsumption in NL")
+plt.title("Correlation between university graduates and beer consumption in NL")
 plt.legend()
 
 # Save to file (DPI=300)
